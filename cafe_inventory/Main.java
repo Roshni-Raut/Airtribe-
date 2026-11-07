@@ -110,7 +110,7 @@ public class Main {
 				else if(n<=0 || n>count)
 					System.out.println("Invalid Product Number!!");
 				else
-					products[count++] = new Product(products[n-1].name, products[n-1].price, products[n-1].quantity);
+					products[count++] = new Product(products[n-1]);
 
 				break;
 			case 0:
