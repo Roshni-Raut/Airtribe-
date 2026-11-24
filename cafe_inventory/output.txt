@@ -7,8 +7,19 @@
 5. Restock a product
 6. Duplicate a product
 0. Exit
+Choose: 2
+No Product available !!
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
 Choose: 1
-Name: samosa
+Name: Samosa
 Price: 15
 Quantity: 20
 
@@ -21,8 +32,8 @@ Quantity: 20
 6. Duplicate a product
 0. Exit
 Choose: 1
-Name: Tea
-Price: 10.5
+Name: Pizza
+Price: 100
 Quantity: 5
 
 --- Campus Cafe Inventory ---
@@ -33,9 +44,9 @@ Quantity: 5
 5. Restock a product
 6. Duplicate a product
 0. Exit
-Choose: 2
-samosa| Rs 15.0| qty 20
-Tea| Rs 10.5| qty 5
+Choose: 6
+Product number: 9
+Invalid Product Number!!
 
 --- Campus Cafe Inventory ---
 1. Add product
@@ -45,43 +56,10 @@ Tea| Rs 10.5| qty 5
 5. Restock a product
 6. Duplicate a product
 0. Exit
-Choose: 3
-stockValue: 352.5
-
---- Campus Cafe Inventory ---
-1. Add product
-2. Display all products
-3. Total stock value
-4. Average price
-5. Restock a product
-6. Duplicate a product
-0. Exit
-Choose: 4
-Average Price: 12.75 rounded Down: 12
-
---- Campus Cafe Inventory ---
-1. Add product
-2. Display all products
-3. Total stock value
-4. Average price
-5. Restock a product
-6. Duplicate a product
-0. Exit
-Choose: 5
-Product number: 2
-Quantity to add: 10
-
---- Campus Cafe Inventory ---
-1. Add product
-2. Display all products
-3. Total stock value
-4. Average price
-5. Restock a product
-6. Duplicate a product
-0. Exit
-Choose: 2
-samosa| Rs 15.0| qty 20
-Tea| Rs 10.5| qty 15
+Choose: 1
+Name: Idli
+Price: 10
+Quantity: 100
 
 --- Campus Cafe Inventory ---
 1. Add product
@@ -92,7 +70,7 @@ Tea| Rs 10.5| qty 15
 6. Duplicate a product
 0. Exit
 Choose: 6
-Product number: 2
+Product number: 1
 
 --- Campus Cafe Inventory ---
 1. Add product
@@ -103,9 +81,62 @@ Product number: 2
 6. Duplicate a product
 0. Exit
 Choose: 2
-samosa| Rs 15.0| qty 20
-Tea| Rs 10.5| qty 15
-Tea| Rs 10.5| qty 15
+1. Samosa | Rs 15.0 | qty 20
+2. Pizza | Rs 100.0 | qty 5
+3. Idli | Rs 10.0 | qty 100
+4. Samosa (copy) | Rs 15.0 | qty 20
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 9
+Invalid choice, try again.
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 5
+Product number: 7
+Quantity to add: 10
+Invalid Product Number!!
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 1
+Name: Wada
+Price: -20
+Quantity: 200
+Invalid input!!!
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 1
+Name: Wada Sambar
+Price: 30
+Quantity: -100
+Invalid input!!!
 
 --- Campus Cafe Inventory ---
 1. Add product
@@ -117,4 +148,4 @@ Tea| Rs 10.5| qty 15
 0. Exit
 Choose: 0
 Goodbye!
-Products created in total: 3
+Products created in total: 4

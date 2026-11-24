@@ -48,8 +48,10 @@ public class Main {
 				if(count ==0) {
 					System.out.println("No Product available !!");
 				} else {
-					for(int i=0; i<count; i++)
+					for(int i=0; i<count; i++) {
+						System.out.print((i+1)+". ");
 						products[i].display();
+					}
 				}
 				break;
 			case 3:
@@ -109,9 +111,14 @@ public class Main {
 					System.out.println("No Product available !!");
 				else if(n<=0 || n>count)
 					System.out.println("Invalid Product Number!!");
-				else
-					products[count++] = new Product(products[n-1]);
-
+				else if(count==10) 
+   					System.out.println("Product array is full!");
+				else {
+    				Product copy = new Product(products[n-1]);
+    				copy.name += " (copy)";
+    				products[count] = copy;
+    				count++;
+				}
 				break;
 			case 0:
 				System.out.println("Goodbye!");
